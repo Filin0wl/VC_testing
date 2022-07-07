@@ -18,16 +18,29 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="hello" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EQa-Ms-dDE">
-                    <rect key="frame" x="186" y="283" width="37" height="21"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hello" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EQa-Ms-dDE">
+                    <rect key="frame" x="188.5" y="283" width="37" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UFM-b7-9db">
+                    <rect key="frame" x="177" y="432.5" width="60.5" height="31"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Close"/>
+                    <connections>
+                        <action selector="buttonCloseClicked:" destination="-1" eventType="touchUpInside" id="Mgd-KM-7Vw"/>
+                    </connections>
+                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="EQa-Ms-dDE" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="239" id="KwC-8a-dyx"/>
+                <constraint firstItem="EQa-Ms-dDE" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ZWm-zr-dn6"/>
+                <constraint firstItem="UFM-b7-9db" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="eBi-8y-ymJ"/>
+                <constraint firstItem="UFM-b7-9db" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="vAg-zH-Fiy"/>
+            </constraints>
             <point key="canvasLocation" x="139" y="132"/>
         </view>
     </objects>

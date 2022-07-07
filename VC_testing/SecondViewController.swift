@@ -15,7 +15,11 @@ class SecondViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    // MARK: - Actions
+    
+    @IBAction func buttonCloseClicked(_ sender: UIButton) {
+        dismiss(animated: true, completion: nil)
+    }
     /*
     // MARK: - Navigation
 
