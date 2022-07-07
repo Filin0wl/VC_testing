@@ -14,6 +14,11 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func showSecondViewController(_ sender: Any) {
+        let secondViewController = SecondViewController(nibName: "SecondViewController", bundle: nil)
+        secondViewController.modalPresentationStyle = .fullScreen
+        show(secondViewController, sender: self)
+    }
 
 }
 
