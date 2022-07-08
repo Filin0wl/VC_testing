@@ -1,30 +1,21 @@
 //
-//  SecondViewController.swift
+//  RateViewController.swift
 //  VC_testing
 //
-//  Created by Anastasia Perminova on 07.07.2022.
+//  Created by Anastasia Perminova on 08.07.2022.
 //
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class RateViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        title = "Second"
     }
 
-    // MARK: - Actions
-    
-    @IBAction func buttonCloseClicked(_ sender: UIButton) {
-        navigationController?.popViewController(animated: true)
-    }
-    
-    @IBAction func showRateTab(_ sender: UIButton) {
-        tabBarController?.selectedIndex = 1
-    }
+
     /*
     // MARK: - Navigation
 
