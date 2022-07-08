@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1246817C28782A87004EB042 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1246817A28782A87004EB042 /* StartViewController.swift */; };
+		1246817D28782A87004EB042 /* StartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1246817B28782A87004EB042 /* StartViewController.xib */; };
 		1299D6C52877127F0068A3D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1299D6C42877127F0068A3D4 /* AppDelegate.swift */; };
 		1299D6C72877127F0068A3D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1299D6C62877127F0068A3D4 /* SceneDelegate.swift */; };
 		1299D6CE287712820068A3D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1299D6CD287712820068A3D4 /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1246817A28782A87004EB042 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		1246817B28782A87004EB042 /* StartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StartViewController.xib; sourceTree = "<group>"; };
 		1299D6C12877127F0068A3D4 /* VC_testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VC_testing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1299D6C42877127F0068A3D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1299D6C62877127F0068A3D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				1299D6D2287712820068A3D4 /* Info.plist */,
 				1299D6D8287712CE0068A3D4 /* SecondViewController.swift */,
 				1299D6D9287712CE0068A3D4 /* SecondViewController.xib */,
+				1246817A28782A87004EB042 /* StartViewController.swift */,
+				1246817B28782A87004EB042 /* StartViewController.xib */,
 			);
 			path = VC_testing;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1299D6DB287712CE0068A3D4 /* SecondViewController.xib in Resources */,
+				1246817D28782A87004EB042 /* StartViewController.xib in Resources */,
 				1299D6D1287712820068A3D4 /* LaunchScreen.storyboard in Resources */,
 				1299D6CE287712820068A3D4 /* Assets.xcassets in Resources */,
 			);
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1299D6DA287712CE0068A3D4 /* SecondViewController.swift in Sources */,
+				1246817C28782A87004EB042 /* StartViewController.swift in Sources */,
 				1299D6C52877127F0068A3D4 /* AppDelegate.swift in Sources */,
 				1299D6C72877127F0068A3D4 /* SceneDelegate.swift in Sources */,
 			);
