@@ -1,26 +1,21 @@
 //
-//  SecondViewController.swift
+//  StartViewController.swift
 //  VC_testing
 //
-//  Created by Anastasia Perminova on 07.07.2022.
+//  Created by Anastasia Perminova on 08.07.2022.
 //
 
 import UIKit
 
-class SecondViewController: UIViewController {
-
+class StartViewController: UIViewController {
+        
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-        title = "Second"
+        title = "Start"
+        
     }
 
-    // MARK: - Actions
-    
-    @IBAction func buttonCloseClicked(_ sender: UIButton) {
-        navigationController?.popViewController(animated: true)
-    }
+
     /*
     // MARK: - Navigation
 
@@ -31,4 +26,10 @@ class SecondViewController: UIViewController {
     }
     */
 
+    // MARK: - Actions
+    @IBAction func pushButtonClicked(_ sender: UIButton) {
+        let secondController = SecondViewController()
+        navigationController?.pushViewController(secondController, animated: true)
+    }
+    
 }
