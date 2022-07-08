@@ -19,7 +19,7 @@ class SecondViewController: UIViewController {
     // MARK: - Actions
     
     @IBAction func buttonCloseClicked(_ sender: UIButton) {
-        dismiss(animated: true, completion: nil)
+        navigationController?.popViewController(animated: true)
     }
     /*
     // MARK: - Navigation
