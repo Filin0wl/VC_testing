@@ -8,7 +8,7 @@
 import UIKit
 
 class StartViewController: UIViewController {
-
+        
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Start"
@@ -26,4 +26,10 @@ class StartViewController: UIViewController {
     }
     */
 
+    // MARK: - Actions
+    @IBAction func pushButtonClicked(_ sender: UIButton) {
+        let secondController = SecondViewController()
+        navigationController?.pushViewController(secondController, animated: true)
+    }
+    
 }
