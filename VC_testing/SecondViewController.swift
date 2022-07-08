@@ -21,6 +21,10 @@ class SecondViewController: UIViewController {
     @IBAction func buttonCloseClicked(_ sender: UIButton) {
         navigationController?.popViewController(animated: true)
     }
+    
+    @IBAction func showRateTab(_ sender: UIButton) {
+        tabBarController?.selectedIndex = 1
+    }
     /*
     // MARK: - Navigation
 
